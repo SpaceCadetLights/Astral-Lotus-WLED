@@ -209,7 +209,7 @@ WLED_GLOBAL char serverDescription[33] _INIT("Astral Lotus");  // Name of module
 WLED_GLOBAL bool syncToggleReceive     _INIT(true);   // UIs which only have a single button for sync should toggle send+receive if this is true, only send otherwise
 
 // Sync CONFIG
-WLED_GLOBAL bool buttonEnabled  _INIT(false);
+WLED_GLOBAL bool buttonEnabled  _INIT(true);
 WLED_GLOBAL byte irEnabled      _INIT(4);     // Infrared receiver
 
 WLED_GLOBAL uint16_t udpPort    _INIT(21324); // WLED notifier default port
